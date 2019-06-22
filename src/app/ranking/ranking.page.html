@@ -1,0 +1,123 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Resultado</ion-title>
+    </ion-toolbar>
+    <style>
+        table {
+            width: 100%;
+            height: 75%;
+            position: relative;
+            top: 0.5em;
+            margin: 0 auto;
+            border-spacing: 0;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+            box-shadow: 9px 7px 5px #DCDCDC;
+        }
+
+        caption {
+            font-size: 140%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            padding: 15px 0;    
+            background-color: #6495ED;
+            border: 0.05em solid black;
+            border-bottom: none;
+            letter-spacing: 3px;
+        }
+
+        thead {
+            font-weight: 700%;
+            background-color: #DCDCDC;
+            font-weight: bold;
+            font-weight: 550;
+        }
+
+
+        
+        tr,td{
+            border: thin solid black;
+            border-bottom: none;
+            border-right: none;
+            padding: 5px;
+            text-align: center;
+            padding: 0.7em;
+            border: 0.05em solid black;
+
+        }
+
+        tbody tr:nth-last-child(even) {
+            background-color: #F0F8FF;
+        }
+    </style>
+
+</ion-header>
+
+<ion-content padding>
+    <table>
+        <caption>Resultado</caption>
+
+        <thead>
+            <tr>
+                <td>Posição</td>
+                <td>Nome</td>
+                <td>Pontução</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1°</td>
+                <td>João</td>
+                <td>100</td>
+
+            </tr>
+
+            <tr>
+                <td>2°</td>
+                <td>Adriana</td>
+                <td>97</td>
+
+            </tr>
+
+            <tr>
+                <td>3°</td>
+                <td>Ricardo</td>
+                <td>89</td>
+
+            </tr>
+
+            <tr>
+                <td>4°</td>
+                <td>Marcelo</td>
+                <td>87</td>
+
+            </tr>
+
+            <tr>
+                <td>5°</td>
+                <td>Pablo</td>
+                <td>73</td>
+
+            </tr>
+
+            <tr>
+                <td>6°</td>
+                <td>Henrique</td>
+                <td>64</td>
+
+            </tr>
+
+            <tr>
+                <td>7°</td>
+                <td>João</td>
+                <td>61</td>
+
+            </tr>
+
+        </tbody>
+    </table>
+</ion-content>

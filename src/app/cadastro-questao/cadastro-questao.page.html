@@ -1,0 +1,158 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Criador de Questões
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="cadastrarQuestao" margin>
+    <ion-progress-bar></ion-progress-bar>
+
+    <ion-item>
+      <ion-input placeholder="Enunciado 1" type="text" style="text-align: start"></ion-input>
+    </ion-item>
+
+    <ion-list>
+      <ion-radio-group>
+
+        <ion-item>
+          <ion-label>
+            <ion-input placeholder="Digite a 1 opção" type="text" style="text-align: start"></ion-input>
+          </ion-label>
+          <ion-radio slot="start" value="opc1"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>
+            <ion-input placeholder="Digite a 2 opção" type="text" style="text-align: start"></ion-input>
+          </ion-label>
+          <ion-radio slot="start" value="opc2"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>
+            <ion-input placeholder="Digite a 3 opção" type="text" style="text-align: start"></ion-input>
+          </ion-label>
+          <ion-radio slot="start" value="opc3"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>
+            <ion-input placeholder="Digite a 4 opção" type="text" style="text-align: start"></ion-input>
+          </ion-label>
+          <ion-radio slot="start" value="opc4"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>
+            <ion-input placeholder="Digite a 5 opção" type="text" style="text-align: start"></ion-input>
+          </ion-label>
+          <ion-radio slot="start" value="opc5"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+    <!-- Default Progressbar -->
+    <ion-progress-bar></ion-progress-bar>
+
+    <ion-item>
+      <ion-input placeholder="Enunciado 2" type="text" style="text-align: start"></ion-input>
+    </ion-item>
+
+    <ion-list>
+      <ion-radio-group>
+
+        <ion-item>
+          <ion-label>
+            <ion-input placeholder="Digite a 1 opção" type="text" style="text-align: start"></ion-input>
+          </ion-label>
+          <ion-radio slot="start" value="opc1"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>
+            <ion-input placeholder="Digite a 2 opção" type="text" style="text-align: start"></ion-input>
+          </ion-label>
+          <ion-radio slot="start" value="opc2"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>
+            <ion-input placeholder="Digite a 3 opção" type="text" style="text-align: start"></ion-input>
+          </ion-label>
+          <ion-radio slot="start" value="opc3"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>
+            <ion-input placeholder="Digite a 4 opção" type="text" style="text-align: start"></ion-input>
+          </ion-label>
+          <ion-radio slot="start" value="opc4"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>
+            <ion-input placeholder="Digite a 5 opção" type="text" style="text-align: start"></ion-input>
+          </ion-label>
+          <ion-radio slot="start" value="opc5"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+    <!-- Default Progressbar -->
+    <ion-progress-bar></ion-progress-bar>
+    <ion-item>
+      <ion-label></ion-label>
+      <ion-textarea rows="2" cols="20" placeholder="Enter any notes here..."></ion-textarea>
+    </ion-item>
+
+    <ion-list>
+      <ion-radio-group>
+
+        <ion-item>
+          <ion-label>a)</ion-label>
+          <ion-radio slot="start" value="opc5"></ion-radio>
+          <ion-textarea rows="2" cols="20" placeholder="Enter any notes here..."></ion-textarea>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>b)</ion-label>
+          <ion-radio slot="start" value="opc4"></ion-radio>
+          <ion-textarea rows="2" cols="20" placeholder="Enter any notes here..."></ion-textarea>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>c)</ion-label>
+          <ion-radio slot="start" value="opc3"></ion-radio>
+          <ion-textarea rows="2" cols="20" placeholder="Enter any notes here..."></ion-textarea>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>d)</ion-label>
+          <ion-radio slot="start" value="opc2"></ion-radio>
+          <ion-textarea rows="2" cols="20" placeholder="Enter any notes here..."></ion-textarea>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>e)</ion-label>
+          <ion-radio slot="start" value="opc1"></ion-radio>
+          <ion-textarea rows="2" cols="20" placeholder="Enter any notes here..."></ion-textarea>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+  </div>
+
+  <div class="botaoQuestao">
+    <span margin>
+      <ion-button expand="block" color="primary" (click)="registrar('home')">Gerar quizz</ion-button>
+    </span>
+  </div>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>

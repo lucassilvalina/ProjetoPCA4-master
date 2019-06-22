@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar color="primary">
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+    <ion-title>Quizz</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Pergunta 1</ion-card-title>
+      <ion-card-subtitle>
+        Qual protocolo de comunicação, é a base para a comunicação de dados da World Wide Web?
+      </ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content padding>
+      <ion-list>
+        <ion-item>
+          <ion-checkbox slot="start"></ion-checkbox>
+          <ion-label>HTTP</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-checkbox slot="start"></ion-checkbox>
+          <ion-label>SSh</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-checkbox slot="start"></ion-checkbox>
+          <ion-label>FTP</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-checkbox slot="start"></ion-checkbox>
+          <ion-label>TCP</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+    <ion-button fill="outline" color="primary">Anterior</ion-button>
+    <ion-button fill="outline" color="danger" (click)="desistir('desistir')">Desistir</ion-button>
+    <ion-button fill="outline" color="primary">Próxima</ion-button>
+  </ion-card>
+
+</ion-content>
